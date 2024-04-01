@@ -35,16 +35,4 @@ jobs:
       env:
         AWS_BUCKET_NAME: ${{ secrets.AWS_BUCKET_NAME }}
 
-    - name: Deploy to AWS S3
-      if: success()
-      run: |
-        ls -la
-        aws s3 sync . s3://${{ secrets.AWS_BUCKET_NAME }} --delete --exclude ".git/*" --exclude ".github/*"
-      env:
-        AWS_BUCKET_NAME: ${{ secrets.AWS_BUCKET_NAME }}
-
-    - name: Notify Deployment Success
-      if: success()
-      run: |
-        echo "Subject: Déploiement réussi sur AWS S3" | sendmail abdoultalla100@gmail.com
-        echo "Le déploiement vers AWS S3 s'est terminé avec succès." | sendmail abdoultalla100@gmail.com
+ 
