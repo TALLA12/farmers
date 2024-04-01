@@ -38,4 +38,4 @@ jobs:
     - name: Send Email Notification
       if: success() # cette étape ne sera exécutée que si le déploiement est réussi
       run: |
-        python send_email.py
+        python send_mail.py
