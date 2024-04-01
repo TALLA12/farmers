@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+
+  <a href="#" class="logo"><span>The</span>Farmer</a>
+  <nav class="navbar">
+    <a href="#acceuil">acceuil</a>
+    <a href="#about">a propos</a>
+    <a href="#services">services</a>
+    <a href="#produits">produits</a>
+    <a href="#contact">contact</a>
+  </nav> 
+  <div class="icons">
+    <div id="menu-btn" class="fas fa-bars"></div>
+    <div id="info-btn" class="fas fa-info-circle"></div>
+    <div id="search-btn" class="fas fa-search"></div>
+    <div id="login-btn" class="fas fa-user"></div>
+  </div>
+  <form action="" class="search-form">
+    <input type="search" name="" id="search-box" placeholder="search here...">
+    <label for="search-box" class="fas fa-search"></label>
+  </form>
+  
+
+
+
+  <form action="" class="login-form">
+    <h3>login</h3>
+    <input type="email" class="box" placeholder="enter your email" >
+    <input type="password" class="box" placeholder="enter your password">
+  
+    <div class="flex">
+    <input type="checkbox" name="" id="remember-me">
+    <label for="remember-me">remember me</label>
+    <a href="#">forgot password?</a></p>
+    </div>
+    <input type="submit" value="login now" class="btn">
+    <p>dont't have and account?<a href="#">create one !</a></p>
+  </form>
+</header>
+<div class="contact-info">
+  <div id="close-contact-info" class="fas fa-times"></div>
+  <div class="info">
+    <i class="fas fa-phone"></i>
+    <h3>phone number</h3>
+    <p>+221774642868</p>
+    <P>+221772085074</P>
+  </div>
+  <div class="info">
+    <i class="fas fa-envelope"></i>
+    <h3>adresse email</h3>
+    <p>abdoultall100@gmail.com</p>
+    <p>ardotech404@gmail.com</p>
+  </div>
+  <div class="info">
+    <i class="fas fa-map-marker-alt"></i>
+    <h3>addresse bureau</h3>
+    <p>Dakar,Senegal,Mermoz</p>
+  </div>
+  <div class="share">
+    <a href="#" class="fab fa-facebook-f"></a>
+    <a href="#" class="fab fa-twitter"></a>
+    <a href="#" class="fab fa-instagram"></a>
+    <a href="#" class="fab fa-linkedin"></a>
+  </div>
+</div>
+
+
+
+      <div class="container">
+
+          <div class="slide-container active">
+            <div class="slide">
+              <div class="content">
+                  <h3>Nous fournissons les meilleurs services</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae natus, corporis autem
+                      earum odio voluptas, sint repellat possimus repudiandae molestias velit atque? Maiores vero
+                      laudantium veritatis corrupti facilis nam quae!</p>
+                  <a href="#about" class="btn">Commencer</a>
+              </div>
+              <div class="image">
+                <img src="images/slide2.jpg" alt="Slide 2">
+              </div>
+          </div>
+          </div>
+
+          <div class="slide-container">
+            <div class="slide">
+              <div class="content">
+                  <h3>Donner vie aux rêves</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae natus, corporis autem
+                      earum odio voluptas, sint repellat possimus repudiandae molestias velit atque? Maiores vero
+                      laudantium veritatis corrupti facilis nam quae!</p>
+                  <a href="#about" class="btn">Commencer</a>
+              </div>
+              <div class="image">
+              <img src="images/slide4.jpg" alt="Slide 2">
+              </div>
+          </div>
+          </div>
+
+          <div class="slide-container">
+            <div class="slide">
+              <div class="content">
+                  <h3>Du concept à la création</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae natus, corporis autem
+                      earum odio voluptas, sint repellat possimus repudiandae molestias velit atque? Maiores vero
+                      laudantium veritatis corrupti facilis nam quae!</p>
+                  <a href="#about" class="btn">Commencer</a>
+              </div>
+              <div class="image">
+                <img src="images/slide1.jpg" alt="Slide 2">
+                </div>
+          </div>
+          </div>
+
+        <div id="prev" onclick="prev()"><</div>
+      <div id="next" onclick="next()">></div>
+      </div>
+      
+  
+
+
+
+<section class="about" id="about">
+  <h1 class="heading">a propos</h1>
+  <div class="row">
+  <div class="video">
+    <video src="images/about1.mp4" loop muted autoplay></video>
+  </div>
+  <div class="content">
+    <h3>nous vous fournirons le meilleur travail dont vous avez rêvé !</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quos eligendi omnis possimus repellat quibusdam non quis perferendis cumque sunt.</p>
+    <a href="#services" class="btn">read more</a>
+  </div>
+  </div>
+  <div class="box-container">
+    <div class="box">
+        <h3>10+</h3>
+        <p>années d'expérience</p>
+      </div>
+
+      <div class="box">
+      <h3>1500+</h3>
+      <p>projet accomplit</p>
+        </div>
+    <div class="box">
+      <h3>790+</h3>
+      <p>Clients satisfaits</p>
+        </div>
+
+    <div class="box">
+      <h3>450+</h3>
+      <p>travailleurs actifs</p>
+        </div>
+    </div>
+</section>
+
+
+<section class="services" id="services">
+  <h1 class="heading">nos services</h1>
+  <div class="box-container">
+    <div class="box">
+      <img src="images/service1.png" alt="">
+      <h3>vente de produits hortocoles</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum hic neque expedita cupiditate iure quaerat. Excepturi harum voluptate in perspiciatis.</p>
+    </div>
+    <div class="box">
+      <img src="images/service2.webp" alt="">
+      <h3>management et suivi agricole</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum hic neque expedita cupiditate iure quaerat. Excepturi harum voluptate in perspiciatis.</p>
+    </div>
+    <div class="box">
+      <img src="images/service3.png" alt="">
+      <h3>fond d'investissement</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum hic neque expedita cupiditate iure quaerat. Excepturi harum voluptate in perspiciatis.</p>
+    </div>
+  
+  <div class="box">
+    <img src="images/service3.png" alt="">
+    <h3>fond d'investissement</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum hic neque expedita cupiditate iure quaerat. Excepturi harum voluptate in perspiciatis.</p>
+  </div>
+
+<div class="box">
+  <img src="images/service3.png" alt="">
+  <h3>fond d'investissement</h3>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum hic neque expedita cupiditate iure quaerat. Excepturi harum voluptate in perspiciatis.</p>
+</div>
+
+<div class="box">
+  <img src="images/service4.jpg" alt="">
+  <h3>cabinet de conseil et accompagnement</h3>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum hic neque expedita cupiditate iure quaerat. Excepturi harum voluptate in perspiciatis.</p>
+</div>
+</div>
+</section>
+
+<section class="projects" id="produits">
+<h1 class="heading">Nos produits</h1>
+<div class="box-container">
+  <a href="images/7.jpg" class="box">
+    <img src="images/7.jpg" >
+  
+  </a>
+  <a href="images/8.jpg" class="box">
+    <img src="images/8.jpg" >
+  
+  </a>
+
+  <a href="images/2.png" class="box">
+      <img src="images/2.png" >
+    
+    </a>
+
+    <a href="images/3.png" class="box">
+      
+        <img src="images/3.png"> 
+      </a>
+
+      <a href="images/4.png" class="box">
+          <img src="images/4.png">
+        </a>
+
+        <a href="images/6.jpg" class="box">
+            <img src="images/6.jpg"> 
+          </a>
+
+          <a href="images/6.png" class="box">
+              <img src="images/6.png">
+            </a>
+            <a href="images/9.jpg" class="box">
+              <img src="images/9.jpg">
+            </a>
+            <a href="images/3.png" class="box">
+              <img src="images/3.png">
+            </a>
+</div>
+</section>
+<section class="services" id="services">
+  <h1 class="heading">pourquoi  faire confiance a the farmer?</h1>
+  <div class="box-container">
+    <div class="box">
+      <h3>ENGAGEMENT ET TRANSPARENCE</h3>
+      <p>Chez The Farmer, nous nous engageons à respecter scrupuleusement nos engagements envers vous. Forts de nos valeurs, nous mettons un point d'honneur à l'honnêteté et à la transparence. Notre nouvelle politique de communication, baptisée « Plus Proche de Nos Clients », vous permet d'entrer directement en contact avec nos managers.
+      </p>
+    </div>
+    <div class="box">
+      <h3>SUIVI RIGOUREUX DE VOTRE INVESTISSEMENT</h3>
+      <p>Nous accordons une importance particulière au suivi de nos campagnes de crowdfunding. Chaque mois, vous recevrez un rapport détaillé mettant en lumière les avancements et les évolutions de toutes les campagnes auxquelles vous avez souscrit. Nous sommes déterminés à maintenir une communication constante pour que vous soyez informé à chaque étape du processus.
+      </p>
+      </div>
+      <div class="box">
+        <h3>ENGAGEMENT DE REMBOURSEMENT SÉCURISÉ
+        </h3>
+        <p>Votre confiance est sécurisée chez The Farmer. Grâce à un contrat d'investissement signé par les deux parties et à une assurance agricole élaborée par notre équipe juridique, votre investissement de base est garanti, indépendamment des circonstances. Votre tranquillité d'esprit est notre priorité.
+          Chez The Farmer, nous sommes bien plus qu'une entreprise agricole – nous sommes vos partenaires de confiance dans la croissance durable et le succès partagé.<p>
+    </div>
+    <div class="box">
+      <h3>ENGAGEMENT DE REMBOURSEMENT SÉCURISÉ
+      </h3>
+      <p>Votre confiance est sécurisée chez The Farmer. Grâce à un contrat d'investissement signé par les deux parties et à une assurance agricole élaborée par notre équipe juridique, votre investissement de base est garanti, indépendamment des circonstances. Votre tranquillité d'esprit est notre priorité.
+        Chez The Farmer, nous sommes bien plus qu'une entreprise agricole – nous sommes vos partenaires de confiance dans la croissance durable et le succès partagé.<p>
+  </div>
+  </section>
+
+  <div class="video-section">
+    <div class="video-container">
+        <video id="myVideo" controls>
+            <source src="images/about2.mp4" type="video/mp4">
+            Votre navigateur ne prend pas en charge la balise vidéo.
+        </video>
+    </div>
+</div>
+
+<section class="contact" id="contact">
+  <h1 class="heading">nous contacter</h1>
+  <div class="row">
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3863.4060065584868!2d-17.0140886247942!3d14.461360486008644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec18963769ef147%3A0xc45d261756a83d45!2sSaly%20A%C3%A9rodrome!5e0!3m2!1sfr!2ssn!4v1699733220412!5m2!1sfr!2ssn" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   <form action="">
+    <h3>entrer en contact</h3>
+    <input type="text" placeholder="nom" class="box">
+    <input type="email" placeholder="email" class="box">
+    <input type="number" placeholder="phone" class="box">
+    <textarea name="" placeholder="message" class="box" id="" cols="30" rows="10"></textarea>
+    <input type="submit" value="envoyer message" class="btn"> 
+  </form>
+  </div>
+</section>
+
+<section class="footer">
+  <div class="links">
+    <a class="btn" href="#acceuil">acceuil</a>
+    <a class="btn" href="#about">a propos</a>
+    <a class="btn" href="#services">services</a>
+    <a class="btn" href="#produits">produits</a>
+    <a class="btn" href="#contact">contact</a>
+  </div>
+  <div class="credit">created  by <span>ardotech</span>| all rights reserved!</div>
+  
+</section>
+
+
+
+
+
+
+ 
+
+
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+ 
+ <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+   <script src="js/script.js"></script> 
+   <script>
+    lightGallery(document.querySelector('.projects .box-container'));
+   </script>
+</body>
+</html>
